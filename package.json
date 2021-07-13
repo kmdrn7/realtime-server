@@ -51,7 +51,6 @@
     "@types/mongoose": "^5.10.3",
     "@types/winston": "^2.4.4",
     "prettier": "^2.2.1",
-    "ts-jest": "^26.4.4",
     "ts-node": "^9.1.0",
     "ts-node-dev": "^1.0.0",
     "tsconfig-paths": "^3.9.0",
