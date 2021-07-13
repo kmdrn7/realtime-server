@@ -1,9 +1,9 @@
 import express from "express";
-import {env, isDevelopment} from "@/common/env";
+import {env} from "@/common/env";
 import {default as http} from "http";
 import {mongodbConnect} from "./mongo";
 import {init as SocketIO} from "./socket";
-import { log } from "@/common/log";
+import {log} from "@/common/log";
 import cors from "cors";
 
 mongodbConnect();
